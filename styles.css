@@ -1,3 +1,40 @@
 body {
     font-family: Lora, serif;
+    background-color: #C2A6F8;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+img {
+    max-height: 300px;
+    object-fit: cover;
+    border: #fff3a1 solid 4px;
+    border-radius: 10px;
+}
+
+img:hover {
+    border: #8192ee solid 4px;
+}
+
+.collapsible {
+    font-family: Lora, serif;
+    border: #D574ED solid 4px;
+    background-color: #C2A6F8;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: #8192ee;
+    font-weight: bold;
 }
