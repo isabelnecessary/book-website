@@ -1,6 +1,7 @@
 body {
     font-family: Lora, serif;
     background-color: #C2A6F8;
+    padding: 15px 20px;
 }
 
 div {
@@ -19,22 +20,4 @@ img {
 
 img:hover {
     border: #8192ee solid 4px;
-}
-
-.collapsible {
-    font-family: Lora, serif;
-    border: #D574ED solid 4px;
-    background-color: #C2A6F8;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
-.collapsible:hover {
-    background-color: #8192ee;
-    font-weight: bold;
 }
