@@ -4,11 +4,37 @@ body {
     padding: 15px 20px;
 }
 
-div {
+.book {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#attribution {
+    font-style: italic;
+}
+
+.genre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: start;
+}
+
+#chart {
+    width: 400px;
 }
 
 img {
@@ -20,4 +46,12 @@ img {
 
 img:hover {
     border: #8192ee solid 4px;
+}
+
+a:hover {
+    color: #5d71dd;
+}
+
+.useful-links {
+    background-color: #C2A6F8;
 }
