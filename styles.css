@@ -53,5 +53,7 @@ a:hover {
 }
 
 .useful-links {
-    background-color: #C2A6F8;
+    background-color: #e3d6fd;
+    border-radius: 10px;
+    padding: 1px 5px 10px 15px;
 }
